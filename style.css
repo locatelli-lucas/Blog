@@ -1,0 +1,245 @@
+:root {
+    --main-color: linear-gradient(90deg, #0c142c, #001b6d);
+    --white: #e3e3fc;
+    --main-font: Arial, Helvetica, sans-serif;
+    --header-font-weight: 200;
+    --header-font-size: 1.5rem;
+    --gray: #1c2c3c;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background: var(--main-color);
+    display: flex;
+    justify-content: center;
+}
+
+.title_header {
+    width: 50vw;
+    height: 10vh;
+    color: var(--white);
+    display: flex;
+    font-weight: var(--header-font-weight);
+}
+
+.title_header span {
+    position: relative;
+    top: 4.3vh;
+    font-size: var(--header-font-size);
+}
+
+.graphic {
+    height: 65px;
+    width: 60px;
+    position: relative;
+    top: 0;
+    margin-right: 5px;
+}
+
+.links_header {
+    display: flex;
+    align-items: center;
+}
+
+.header_list {
+    display: flex;
+    gap: 1rem;
+    font-size: var(--header-font-size);
+    
+}
+
+.header_list a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: var(--header-font-weight);
+}
+
+main {
+    height: 1900px;
+    background: var(--main-color);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_container {
+    height: 25vh;
+    width: 50vw;
+    color: var(--white);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.main_h1 {
+    font-size: 3rem;
+    margin-bottom: 45px;
+}
+
+.main_container p {
+    font-size: 1.2rem;
+}
+
+.posts {
+    width: 60vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 15px;
+    margin-bottom: 150px;
+}
+
+.post {
+    width: 20vw;
+    height: 55vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2.5rem;
+    padding-bottom: 15%;
+    text-align: center;
+    color: var(--white);
+}
+
+.posts a {
+    text-decoration: none;
+}
+
+.post_title {
+    font-weight: bold;
+}
+
+.post span {
+    font-size: var(--main-font);
+}
+.post_date {
+    color: #65686e;
+    opacity: 0.5;
+}
+.post p {
+   line-height: 25px; 
+}
+
+.post_1 {
+    background-image: url(assets/studies.jpg);
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: var(--gray);
+    transition: 500ms;
+}
+
+.post_2 {
+    background-image: url(assets/computer.jpg);
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: var(--gray);
+    transition: 500ms;
+}
+
+.post_3 {
+    background-image: url(assets/light\ bulb.jpg);
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: var(--gray);
+    transition: 500ms;
+}
+
+.post_4 {
+    background-image: url(assets/stock.jpg);
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: var(--gray);
+    transition: 500ms;
+}
+
+.post_5 {
+    background-image: url(assets/business.jpg);
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: var(--gray);
+    transition: 500ms;
+}
+
+.post_6 {
+    background-image: url(assets/studies\ notepad.jpg);
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: var(--gray);
+    transition: 500ms;
+}
+
+.post_1:hover, .post_2:hover, .post_3:hover, .post_4:hover, .post_5:hover, .post_6:hover {
+    transform: scale(1.06);
+}
+
+.subscription {
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+}
+
+.news {
+    color: #2951c7;
+}
+
+.subscription p {
+    line-height: 1.1rem;
+}
+
+.subscription form {
+    display: flex;
+}
+
+.email {
+    position: relative;
+    top: 75px;
+    left: 120px;
+}
+
+.email input {
+    border-radius: 30px;
+}
+
+.email_input {
+    border: none;
+    height: 6vh;
+    width: 23vw;
+    background-color: var(--gray);
+    padding-left: 25px;
+}
+.btn {
+    height: 4vh;
+    width: 5vw;
+    position: relative;
+    left: -110px;
+    background-color: #2951c7;
+    border: none;
+    
+}
+
+
+
+
