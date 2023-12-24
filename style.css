@@ -194,6 +194,7 @@ main {
     display: flex;
     justify-content: space-between;
     color: var(--white);
+    margin-bottom: 1.2rem;
 }
 
 .title {
@@ -229,6 +230,7 @@ main {
     width: 23vw;
     background-color: var(--gray);
     padding-left: 25px;
+    color: var(--white);
 }
 .btn {
     height: 4vh;
@@ -237,9 +239,34 @@ main {
     left: -110px;
     background-color: #2951c7;
     border: none;
-    
+    font-weight: bold;
+    color: var(--white);
 }
 
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background: var(--main-color);
+}
 
+.cpr {
+    color: var(--white);
+}
+
+footer hr {
+    width: 100vw;
+}
+
+.social_media ul {
+    display: flex;
+    gap: 8%;
+}
+
+.github_logo, .linkedin_logo, .instagram_logo, .whatsapp_logo {
+    width: 3vw;
+    height: 6vh;
+}
 
 
